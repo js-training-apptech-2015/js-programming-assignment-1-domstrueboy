@@ -29,3 +29,15 @@ describe("solution1", function(){
   });
 
 });
+
+describe("solution2", function(){
+  // A < B;
+  it("A = 2, B = 3: результат = 1", function() {
+    assert.equal(solution2(2, 3), 1);
+  });
+
+  it("A = 3, B = 2: результат = null", function() {
+    assert.equal(solution2(3, 2), null);
+  });
+
+});
