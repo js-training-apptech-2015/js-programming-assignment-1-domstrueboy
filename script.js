@@ -5,7 +5,7 @@ var app = function(){
    			solution1(
    				$("#solution1-idA").val(),
    				$("#solution1-idB").val(),
-   				$("solution1-#idC").val()
+   				$("#solution1-idC").val()
    			)
    		);
 	});
